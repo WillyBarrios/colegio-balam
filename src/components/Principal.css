@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+}
+
+header {
+    background-color:  #03133A; /* Un tono oscuro para la barra */
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo img {
+    height: 50px; /* Ajusta el tamaño del logo */
+    src: url('/public/images/logo.png'); /* Assuming logo.png is in public/images/ */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ddd;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #66ccff; /* Un tono azulado similar al logo */
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.burger.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger.toggle .line2 {
+    opacity: 0;
+}
+
+.burger.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+#darkModeToggle {
+    background-color: #663399; /* Un tono morado similar al logo */
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.dark-mode-navbar {
+    background-color: #010715; /* Un tono más oscuro para el navbar en modo oscuro */
+    color: #f4f4f4; /* O el color de texto que prefieras */
+}
+
+#darkModeToggle:hover {
+    background-color: #9966cc; /* Un tono morado más claro */
+}
+
+main {
+    padding-top: 70px; /* Para que el contenido no quede debajo de la barra fija */
+    padding: 2rem;
+}
+
+/* Estilos para la adaptación móvil */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        position: fixed;
+        background-color: #222;
+        height: 100vh;
+        width: 50%;
+        display: flex; /* Necesario para la disposición de los elementos */
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        right: 0;
+        transform: translateX(100%); /* O translateX(-100%) */
+        transition: transform 0.5s ease-in;
+        z-index: 101; /* Asegúrate de que esté por encima del contenido principal */
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+    .burger {
+        display: block;
+        z-index: 102; /* Asegúrate de que esté por encima del menú desplegable */
+    }
+
+    #darkModeToggle {
+        margin-left: 1rem;
+    }
+
+    .navbar {
+        padding: 1rem;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
