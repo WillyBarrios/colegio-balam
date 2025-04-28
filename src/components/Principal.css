@@ -30,7 +30,7 @@ header {
 
 .logo img {
     height: 50px; /* Ajusta el tamaño del logo */
-    src: url('/public/images/logo.png'); /* Assuming logo.png is in public/images/ */
+    src: url('/public/images/logo.png'); 
 }
 
 .nav-links {
@@ -100,9 +100,13 @@ header {
 }
 
 main {
-    padding-top: 70px; /* Para que el contenido no quede debajo de la barra fija */
+    padding-top: 100px; /* Para que el contenido no quede debajo de la barra fija */
     padding: 2rem;
+    text-align: center;
+    margin-top: 100px; /* Espacio para la barra de navegación */
+    font-family: poppins, sans-serif;
 }
+
 
 /* Estilos para la adaptación móvil */
 @media screen and (max-width: 768px) {

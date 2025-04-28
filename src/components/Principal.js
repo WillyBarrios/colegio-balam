@@ -84,7 +84,9 @@ function ContenidoPrincipal() {
             <main>
                 <section className="hero">
                     <h1>Bienvenido al Colegio Tecnológico Balam</h1>
-                    <p>Contenido principal de la página aquí...</p>
+                    <p>Formando líderes del mañana</p>
+                    <button className="cta-button">¡Inscríbete ahora!</button>
+                    
                 </section>
             </main>
         </>
@@ -92,3 +94,4 @@ function ContenidoPrincipal() {
 }
 
 export default ContenidoPrincipal;
+

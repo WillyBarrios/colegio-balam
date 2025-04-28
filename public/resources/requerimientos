@@ -1,0 +1,113 @@
+El colegio del futuro ubicado en la ciudad de Guatemala requiere de un grupo de desarrolladores profesionales 
+para implementar una página web llamativo (Dinamico) para llamar la atención de nuevos estudiantes.  
+
+---------------------------------------------------------------------------------------
+
+Entrega: 13/05/2025
+
+----------------------------------------------------------------------------------------
+📘 Proyecto: Sitio Web para "El Colegio del Futuro" (Ciudad de Guatemala)
+Objetivo general:
+Diseñar e implementar un sitio web dinámico, moderno y visualmente atractivo para captar la atención de potenciales estudiantes 
+y brindar información relevante sobre el colegio y sus carreras técnicas.
+
+🧩 Requerimientos funcionales
+1. Estructura general del sitio
+Sitio web multi-sección de navegación fluida.
+
+* Diseño responsivo (adaptable a móviles, tablets y escritorio).
+
+* Encabezado fijo con logotipo y menú de navegación.
+
+* Pie de página con información de contacto y redes sociales.
+
+2. Contenido obligatorio
+
+* Logotipo institucional.
+
+* Información de contacto:
+
+* Dirección física
+
+* Teléfonos
+
+* Email
+
+* Redes sociales (Facebook, Instagram, etc.)
+
+* Misión y Visión del colegio.
+
+* Actividades destacadas del colegio:
+
+* Carruseles de imágenes/videos
+
+* Sección de eventos o noticias recientes
+
+Carreras técnicas ofrecidas:
+
+* Bachiller en Diseño Gráfico
+
+* Perito Contador
+
+* Perito en Electrónica de Dispositivos Digitales
+
+* Bachiller en Desarrollo Web
+
+* Perito en Administración de Empresas
+
+ Pensum de cada carrera por año académico (tablas descargables o secciones interactivas).
+
+* Videos institucionales (YouTube o carga directa).
+
+* Galería de imágenes.
+
+Formulario de preinscripción:
+
+* Nombre completo
+
+* DPI o carnet
+
+* Correo
+
+* Teléfono
+
+* Carrera de interés
+
+* Comentarios
+
+* Validación básica de datos
+
+* Opción de pago de inscripción con tarjeta de crédito/débito:
+
+* Interfaz atractiva de tarjeta (con efecto de giro para ver anverso/reverso al introducir datos).
+
+-----------------------------------------------------------------------------------------------
+🧱 Requerimientos técnicos
+
+3. Tecnologías obligatorias
+* HTML5
+
+* CSS3
+
+ Framework de CSS recomendado (uno de los siguientes):
+
+* Bootstrap
+
+* Tailwind CSS
+
+* Otros
+
+JavaScript
+
+Framework de JS recomendado (uno de los siguientes):
+
+* Vue.js
+
+* React.js
+
+* Otros
+----------------------------------------------------------------------------------- 
+4. Wireframes y diseño previo
+Deben entregarse wireframes de cada sección antes del desarrollo.
+
+Propuesta visual (mockups) con diseño de interfaz de usuario.
