@@ -65,7 +65,7 @@ function ContenidoPrincipal() {
                         <img src="/images/logo.png" alt="Logo Colegio Balam" />
                     </div>
                     <ul className={`nav-links ${navActive ? 'nav-active' : ''}`} ref={navLinksRef}>
-                        <li><a href="#">Inicio</a></li>
+                        <li><a href="./pages/Bienvenida.js">Inicio</a></li>
                         <li><a href="#">Conocenos</a></li>
                         <li><a href="#">Galeria</a></li>
                         <li><a href="#">Eventos</a></li>
