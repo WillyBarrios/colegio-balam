@@ -1,0 +1,117 @@
+/* src/components/Conocenos.css */
+.conocenos-section {
+  position: relative;
+  padding: 40px 20px;
+  background-color: #5f70a769;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.conocenos-title {
+  position: absolute;
+  top: 0; /* o ajusta según lo necesites */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  font-size: 2.9rem;
+  color: rgb(59, 57, 57);
+  border-bottom: 4px solid rgba(255, 0, 0, 0.63);
+  padding: 10px 20px;
+  background-color: #f3f0f073;
+  border-radius: 10px;
+}
+
+.conocenos-swiper {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 40px; /*Agrega espacio laterral*/
+  box-sizing: border-box;
+  overflow: visible !important;
+}
+
+/* Slides con efecto de escala y opacidad */
+.swiper-slide {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.swiper-slide-active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+  transform: scale(0.85);
+  opacity: 0.5;
+}
+
+.slide-content {
+  position: relative;
+}
+
+.carousel-image {
+  width: 75%;
+  height: 800px;
+  border-radius: 15px;
+}
+
+.legend {
+  width: 70%;
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.712);
+  color: rgba(219, 218, 218, 0.952);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.legend h3 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.legend p {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.legend:hover {
+  background: rgba(44, 44, 44, 0.863);
+  color: white;
+}
+
+/*------------------- BOTONES -----------------*/
+.swiper-button-prev,
+.swiper-button-next {
+  width: 50px;
+  height: 50px;
+  color: #c9c6c6cc; /* Cambia el color si lo necesitas */
+  background-color: rgba(134, 135, 146, 0.589);
+  border-radius: 100%;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #535455cb;
+  background-color: #f3f0f09d;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 18px; /* Ajusta el tamaño del ícono */
+}
+
+/*----------------PAGINATION BUTTON -----------*/
+.swiper-pagination-bullet {
+  background: #faf7f7fb;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #b61926e5; /* O el color que prefieras */
+}
