@@ -1,6 +1,8 @@
 import React from 'react';
-import './Bienvenida.css'; 
+import './Bienvenida.css';
+import ContenidoPrincipal from './Principal.js'; 
 /*import logo from './logo.png';*/
+
 
 function WelcomeSection() {
     return (
@@ -15,8 +17,10 @@ function WelcomeSection() {
                 <p>Todas las carreras tienen una base en común y a partir del segundo trimestre empiezan las especialidades.</p>
                 <button className="learn-more-button">Quiénes somos</button>
             </div>
+            <ContenidoPrincipal />
         </div>
     );
+   
 }
 
 export default WelcomeSection;

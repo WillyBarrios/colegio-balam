@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './Principal.css';
+import { Link } from 'react-router-dom';
+
 
 function ContenidoPrincipal() {
     const [navActive, setNavActive] = useState(false);
@@ -64,12 +66,14 @@ function ContenidoPrincipal() {
                     <div className="logo">
                         <img src="/images/logo.png" alt="Logo Colegio Balam" />
                     </div>
-                    <ul className={`nav-links ${navActive ? 'nav-active' : ''}`} ref={navLinksRef}>
-                        <li><a href="./pages/Bienvenida.js">Inicio</a></li>
-                        <li><a href="#">Conocenos</a></li>
-                        <li><a href="#">Galeria</a></li>
-                        <li><a href="#">Eventos</a></li>
-                    </ul>
+                   <ul className={`nav-links ${navActive ? 'nav-active' : ''}`} ref={navLinksRef}>
+    <li><Link to="/Bienvenida">Inicio</Link></li> {/* O simplemente to="/" si WelcomeSection es tu ruta index */}
+    <li><Link to="/Conocenos">Conócenos</Link></li> {/* Asegúrate que la ruta coincide con App.js */}
+    <li><Link to="/Galeria">Galería</Link></li>   {/* Asegúrate que la ruta coincide con App.js */}
+    <li><Link to="/Eventos">Eventos</Link></li> {/* Añade la ruta correcta cuando tengas el componente Eventos */}
+    <li><Link to="/CarrerasGrid">Carreras</Link></li> {/* Cambiado de ./CarrerasGrid a /CarrerasGrid */}
+    <li><Link to="/PreRegistro">Preregistro</Link></li> {/* Asegúrate que la ruta coincide con App.js */}
+</ul>
                     <div className={`burger ${navActive ? 'toggle' : ''}`} onClick={handleBurgerClick} ref={burgerRef}>
                         <div className="line1"></div>
                         <div className="line2"></div>
@@ -81,15 +85,8 @@ function ContenidoPrincipal() {
                 </nav>
             </header>
 
-            <main>
-                <section className="hero">
-                    <h1>Bienvenido al Colegio Tecnológico Balam</h1>
-                    <p>Formando líderes del mañana</p>
-                    <button className="cta-button">¡Inscríbete ahora!</button>
-                    
-                </section>
-            </main>
         </>
+      
     );
 }
 

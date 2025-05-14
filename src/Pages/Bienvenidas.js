@@ -1,9 +1,9 @@
 import React from 'react';
 import './Bienvenida.css';
-import Principal from './Principal.js'; 
+import ContenidoPrincipal from 'Principal.js'; 
 /*import logo from './logo.png';*/
 
-<Principal/>
+ <ContenidoPrincipal/>
 function WelcomeSection() {
     return (
         <div className="welcome-container">
@@ -17,6 +17,7 @@ function WelcomeSection() {
                 <p>Todas las carreras tienen una base en común y a partir del segundo trimestre empiezan las especialidades.</p>
                 <button className="learn-more-button">Quiénes somos</button>
             </div>
+           
         </div>
     );
    

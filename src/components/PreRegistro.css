@@ -1,0 +1,88 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap; /* Hace que se adapte en pantallas pequeñas */
+}
+
+.imagen img {
+  width: 250px; /* Ajusta el tamaño aquí */
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.formulario {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+}
+
+.formulario h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.formulario label {
+  font-weight: bold;
+}
+
+.formulario input,
+.formulario select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.formulario button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.formulario button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagen img {
+    width: 200px;
+  }
+
+  .formulario {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+.opciones-grado {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.opciones-grado label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

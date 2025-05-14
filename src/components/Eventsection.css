@@ -1,0 +1,102 @@
+* Sección general */
+.event-section {
+  padding: 40px 20px;
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #1a237e;
+}
+
+/* Contenedor de columnas */
+.events-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Tarjeta de evento horizontal */
+.event-card-vertical {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border-left: 5px solid #1e88e5;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card-vertical:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagen del evento */
+.event-image-vertical {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Información del evento */
+.event-info {
+  padding: 20px;
+  flex: 1;
+}
+
+.event-info h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #0d47a1;
+}
+
+.event-info p {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.event-button {
+  background-color: #1e88e5;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.event-button:hover {
+  background-color: #1565c0;
+  transform: translateY(-2px);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .event-card-vertical {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .event-image-vertical {
+    width: 100%;
+    height: auto;
+  }
+
+  .event-info {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .event-button {
+    align-self: center;
+  }
+}
