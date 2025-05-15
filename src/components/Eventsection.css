@@ -1,4 +1,4 @@
-* Sección general */
+/* Sección general*/
 .event-section {
   padding: 40px 20px;
   background: linear-gradient(to right, #e3f2fd, #ffffff);
@@ -99,4 +99,4 @@
   .event-button {
     align-self: center;
   }
-}
+} 
