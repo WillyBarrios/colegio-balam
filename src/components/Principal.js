@@ -64,7 +64,7 @@ function ContenidoPrincipal() {
             <header>
                 <nav className={`navbar ${darkMode ? 'dark-mode-navbar' : ''}`} ref={navbarRef}>
                     <div className="logo">
-                        <img src="/images/logo.png" alt="Logo Colegio Balam" />
+                      <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="Logo Colegio Balam" />
                     </div>
                    <ul className={`nav-links ${navActive ? 'nav-active' : ''}`} ref={navLinksRef}>
     <li><Link to="/Bienvenida">Inicio</Link></li> {/* O simplemente to="/" si WelcomeSection es tu ruta index */}
