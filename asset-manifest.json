@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/colegio-balam/static/css/main.4f290ca3.css",
-    "main.js": "/colegio-balam/static/js/main.fe9a6747.js",
+    "main.js": "/colegio-balam/static/js/main.acf864f3.js",
     "static/js/239.b836fb69.chunk.js": "/colegio-balam/static/js/239.b836fb69.chunk.js",
     "static/js/977.bb15e370.chunk.js": "/colegio-balam/static/js/977.bb15e370.chunk.js",
     "static/js/732.b3d6d8fd.chunk.js": "/colegio-balam/static/js/732.b3d6d8fd.chunk.js",
@@ -9,7 +9,7 @@
     "static/media/fondo.jpg": "/colegio-balam/static/media/fondo.f7ec8f0c533a8b22bd45.jpg",
     "index.html": "/colegio-balam/index.html",
     "main.4f290ca3.css.map": "/colegio-balam/static/css/main.4f290ca3.css.map",
-    "main.fe9a6747.js.map": "/colegio-balam/static/js/main.fe9a6747.js.map",
+    "main.acf864f3.js.map": "/colegio-balam/static/js/main.acf864f3.js.map",
     "239.b836fb69.chunk.js.map": "/colegio-balam/static/js/239.b836fb69.chunk.js.map",
     "977.bb15e370.chunk.js.map": "/colegio-balam/static/js/977.bb15e370.chunk.js.map",
     "732.b3d6d8fd.chunk.js.map": "/colegio-balam/static/js/732.b3d6d8fd.chunk.js.map",
@@ -17,6 +17,6 @@
   },
   "entrypoints": [
     "static/css/main.4f290ca3.css",
-    "static/js/main.fe9a6747.js"
+    "static/js/main.acf864f3.js"
   ]
 }
