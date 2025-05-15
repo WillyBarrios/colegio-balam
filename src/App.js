@@ -8,7 +8,9 @@ import Nosotros from "./components/Nosotros";
 import Galeria from "./components/Galeria";
 import CarrerasGrid from "./components/CarrerasGrid";
 import Eventsection from "./components/Eventos";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+//import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+
 import PreRegistro from "./components/PreRegistro";
 
 function App() {
