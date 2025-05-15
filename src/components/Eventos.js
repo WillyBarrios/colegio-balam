@@ -11,42 +11,42 @@ const events = [
     title: "Feria de Ciencias",
     description:
       "Los estudiantes expondrán proyectos de robótica, química y medio ambiente realizados durante el semestre.",
-    image: "/images/1.jpg", // Ruta de la imagen del evento
+    image: process.env.PUBLIC_URL +"/images/1.jpg", // Ruta de la imagen del evento
   },
   {
     id: 2,
     title: "Día del Deporte",
     description:
       "Jornada completa de competencias deportivas interclases para fomentar la actividad física y el trabajo en equipo.",
-    image: "/images/2.jpg",
+    image: process.env.PUBLIC_URL +"/images/2.jpg",
   },
   {
     id: 3,
     title: "Festival de Talentos",
     description:
       "Una noche especial donde los estudiantes demuestran sus habilidades en canto, baile, teatro y más.",
-    image: "/images/3.jpg",
+    image: process.env.PUBLIC_URL +"/images/3.jpg",
   },
   {
     id: 4,
     title: "Excursión Educativa",
     description:
       "Viaje al zoológico y al museo de historia natural para reforzar aprendizajes en biología y ciencias sociales.",
-    image: "/images/4.jpg",
+    image: process.env.PUBLIC_URL +"/images/4.jpg",
   },
   {
     id: 5,
     title: "Semana Cultural",
     description:
       "Actividades artísticas, desfiles, trajes típicos y exposición de tradiciones de Guatemala y el mundo.",
-    image: "/images/5.jpg",
+    image: process.env.PUBLIC_URL +"/images/5.jpg",
   },
   {
     id: 6,
     title: "Concurso de Matemática",
     description:
       "Prueba académica para premiar a los mejores estudiantes en resolución de problemas y lógica.",
-    image: "/images/6.jpg",
+    image: process.env.PUBLIC_URL +"/images/6.jpg",
   },
 ];
 
